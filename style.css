@@ -1,27 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
 }
 
-header {
+#login-form input {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#login-form button {
+    padding: 10px;
     background-color: #333;
     color: white;
-    padding: 1em;
-    text-align: center;
-}
-
-#content {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-#content p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+    border: none;
+    cursor: pointer;
 }
